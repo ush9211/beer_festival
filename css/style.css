@@ -1,0 +1,238 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+    background-color: #000;
+    height: 100%;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-track{
+    background-color: rgb(187, 138, 255);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #be19ff;
+}
+a,a:link{
+    text-decoration:none;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+ul,li{
+    list-style-type: none;
+}
+.container{
+    width: 1920px;
+    max-width:100%;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.lineup h1,
+.family h1,
+.htcome h1,
+.htcome h1,
+.notice h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 2em;
+    color: #fff;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+/*********** HEADER ************/
+header{
+    width: 1920px;
+    max-width: 100%;
+    padding-left: 210px;
+    padding-right: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+.logo img{
+    height: 100px;
+}
+.gnb{
+    display: flex;
+}
+.gnb li{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 25px;
+}
+.sns a{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+/************ slide ***********/
+.slide{
+    width: 1920px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    position: relative;
+}
+.main{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+/********** 프로그램 ***********/
+.hbeer,
+.food{
+    display: flex;
+    margin-bottom: 150px;
+}
+.container>.hbeer>.btext,
+.container>.food>.ftext{
+    width: 1200px;
+    height: 517px;
+    background-color: #fff;
+}
+.container>.hbeer>.btext{
+    padding-left: 300px;
+}
+.container>.food>.ftext{
+    padding-left: 100px;
+}
+.btext h1,
+.ftext h1{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 2em;
+    color: #28c07a;
+    margin-top: 30px;
+}
+.btext h3,
+.ftext h3{
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.5em;
+    letter-spacing: -3px;
+    color: #f665ff;
+}
+.btext h5,
+.ftext h5{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 2em;
+    margin-top: 35px;
+}
+.container>.food img{
+    margin-left: 220px;
+}
+.map{
+    margin-bottom: 300px;
+}
+.line img{
+    margin: 50px 30px;
+}
+.lineup>img{
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+/************* 패밀리 ************/
+.family{
+    width: 1580px;
+    max-width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+.family p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2em;
+    color: #fff;
+}
+.familyin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.familyin img{
+    width: 200px;
+    margin: 30px;
+    transition: all 500ms;
+}
+.familyin img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 10px #5f5f5f;
+    transform: rotate(360deg);
+}
+
+/************* 오시는길 ****************/
+#map{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+.htcome p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2em;
+    color: #fff;
+}
+
+/************* 유의사항 ***************/
+.nobox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.col-6{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.nobox img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.nobox h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.nobox p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/**************** FOOTER ***************/
+footer{
+    height: 200px;
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 50px;
+}
